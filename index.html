@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+    
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 0, 102);
+
+}
+
+.navbar ul {
+    color: white;
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 20px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.navbar li:hover {
+    margin: 0 20px;
+    color: rgb(255, 0, 102);
+    transform: scale(1.04);
+}
+
+ button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 0, 102);
+    color: white;
+    border: none;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.navbar button:hover {
+    
+    background-color: rgb(212, 2, 86);
+    transform: scale(1.04);
+}
+
+.hero {
+    text-align: left;
+
+    background-image: url('traveling\ photo\ \(2\).jpg');
+    height: 650px;
+    background-size: cover;
+    color: #a02424;
+    
+}
+
+.heroContent{
+    padding-top: 170px;
+    padding-left: 100px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+
+
+}
+.heroContent h4{
+
+}
+.heroContent h1{
+font-size: 40px;
+}
+.heroContent input{
+padding: 10px 25px;
+border-radius: 12px;
+border: none;
+}
+
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.about img {
+    max-width: 300px;
+    height: 400px;
+}
+
+.about p {
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.services {
+    text-align: center;
+    padding: 50px;
+}
+
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.service-card i {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.services {
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    border: 2px solid gray;
+    padding: 20px;
+    flex: 0 0 calc(28% - 20px); 
+    text-align: center;
+    margin: 10px; 
+}
+
+.service-card i {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.footer {
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+    
+</style>
+<body>
+    <div class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Service</li>
+            <li>Skills</li>
+            <li>Contact</li>
+
+        </ul>
+        <button>Subscribe</button>
+    </div>
+
+    <div class="hero">
+        <div class="heroContent">
+        <h4>HELLO MY NAME IS</h4>
+        <h1>Imam <span style="color: rgb(212, 2, 86); ;">Faheem</span></h1>
+        <h4>I AM A WEB DEVEOPER</h4>
+        <input type="text" placeholder="Enter your Email">
+        <button>Submit</button>
+    </div>
+    </div>
+
+    <div class="about">
+        <img src="IMG_0752 edited 2.jpg" alt="Your Image">
+        <p>Experienced front-end developer proficient in HTML, CSS, SASS, Bootstrap, Tailwind, JavaScript, and React.js. Passionate about designing visually stunning and user-friendly websites and web applications. Constantly learning and staying up-to-date with industry trends. 
+
+            I'm excited to network with new professionals and continue growing in my career. I look forward to connecting with like-minded individuals and exploring new opportunities.
+            
+            Portfolio Website https://imam-faheem.github.io/22pwbcs0912-WP-fall2023/</p>
+    </div>
+
+    <div   class="footer">
+        <h2 style="padding: 100px;">let me get you a beatufull website</h2>
+    </div>
+    <h2 style="text-align: center; font-size: 60px;">Our Services</h2>
+    
+    <div class="services">
+        <div class="service-card">
+            <h3>Web deveopment</h3>
+            <p>I have learn react and fromnt end. i am acompler...</p>
+            <button>Read More</button>
+        </div>
+        <div class="service-card">
+            <h3>Graphic</h3>
+            <p>I have learn react and fromnt end. i am acompler...</p>
+            <button>Read More</button>
+
+        </div>
+        <div class="service-card">
+            <h3>UI and UX</h3>
+            <p>I have learn react and fromnt end. i am acompler...</p>
+            <button>Read More</button>
+
+        </div>
+    </div>
+
+    
+
+    <div class="footer">
+        <p>Yes i am imam faheem</p>
+    </div>
+</body>
+</html>
